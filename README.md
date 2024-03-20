@@ -1,7 +1,3 @@
-Here's a template for your README.md file:
-
----
-
 # Code Snippets Web Application
 
 This web application allows users to submit code snippets along with relevant information and view them in a tabular format. Users can provide their username, preferred code language, standard input, and the source code. The application is built using Express.js for the backend and React.js for the frontend.
@@ -15,7 +11,7 @@ This web application allows users to submit code snippets along with relevant in
 
 ## Demo
 
-![Code Snippets Web Application Demo](data/code.png)
+![Code Snippets Web Application Demo](code-snippets/data/code.png)
 
 Watch a tutorial video demonstrating how to fill the form and store data: [Tutorial Video](data/videodata.mp4)
 
