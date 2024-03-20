@@ -52,4 +52,3 @@ Please note that the backend of this application is not currently deployed due t
 ## Credits
 
 This project was developed by [Harsh Dekate]. Feel free to reach out for any inquiries or feedback.
-
