@@ -1,17 +1,30 @@
-# Code Snippets Web Application
+# Code Snippet Manager
 
-This web application allows users to submit code snippets along with relevant information and view them in a tabular format. Users can provide their username, preferred code language, standard input, and the source code. The application is built using Express.js for the backend and React.js for the frontend.
+Welcome to the Code Snippet Manager! This web application allows users to submit and display code snippets conveniently. Below, you'll find detailed instructions on how to use the application along with screenshots and a tutorial video.
 
 ## Features
 
-- Users can submit code snippets with their username, preferred language, standard input, and source code.
-- Submitted code snippets are displayed in a tabular format on the frontend, showcasing the username, language, input, and timestamp.
-- The frontend is hosted on Netlify, providing a publicly accessible URL: [Code Snippets Web Application](https://ornate-churros-7ed3f1.netlify.app/)
-- The backend is not currently deployed due to certain limitations.
+- Submit code snippets with username, preferred language, standard input, and source code.
+- View all submitted code snippets in a tabular format.
+- Automatically limit the display of source code to the initial 100 characters.
+- Tutorial video demonstrating how to use the application.
 
-## Demo
+## Usage
 
-![Code Snippets Web Application Demo](/data/code.png)
+### How to Submit a Code Snippet
+
+1. Navigate to the submission form page.
+2. Fill in your username, preferred language, standard input, and source code.
+3. Click the submit button to save your code snippet.
+
+### How to View Submitted Code Snippets
+
+1. Navigate to the code snippets page.
+2. Browse through the table to view all submitted code snippets.
+3. Each row displays the username, language, standard input, and timestamp of submission.
+4. Source code is truncated to the first 100 characters for readability.
+
+## Tutorial Video
 
 Watch a tutorial video demonstrating how to fill the form and store data: [Tutorial Video](data/videodata.mp4)
 
@@ -19,36 +32,24 @@ Watch a tutorial video demonstrating how to fill the form and store data: [Tutor
 
 ![Frontend Screenshot](data/code.png)
 
+Screenshot of the frontend displaying code snippets.
+
 ![Database Screenshot](data/data.png)
 
-## Backend
+Screenshot of the database showing stored code snippets.
 
-The backend of this application is built using Express.js. To run the backend locally:
+## Note
 
-1. Navigate to the `backend` directory.
-2. Install the dependencies using `npm install`.
-3. Start the server using `npm start`.
-
-## Frontend
-
-The frontend of this application is built using React.js. To run the frontend locally:
-
-1. Navigate to the `frontend` directory.
-2. Install the dependencies using `npm install`.
-3. Start the development server using `npm start`.
-
-## Deployment
-
-- The frontend is deployed on Netlify.
-- To deploy the backend, follow the deployment instructions provided by your hosting provider, such as Heroku or AWS.
+Please note that the backend of this application is not currently deployed due to certain limitations. However, the frontend is live and accessible [here](https://ornate-churros-7ed3f1.netlify.app/).
 
 ## Technologies Used
 
-- Frontend: React.js, Axios, HTML, CSS
-- Backend: Express.js, Node.js
+- Frontend: React
+- Backend: Express.js
 - Database: MySQL
+- Hosting: Netlify (Frontend)
 
-## Contributions
+## Credits
 
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request.
+This project was developed by [Harsh Dekate]. Feel free to reach out for any inquiries or feedback.
 
