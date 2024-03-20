@@ -11,7 +11,7 @@ This web application allows users to submit code snippets along with relevant in
 
 ## Demo
 
-![Code Snippets Web Application Demo](code-snippets/data/code.png)
+![Code Snippets Web Application Demo](/data/code.png)
 
 Watch a tutorial video demonstrating how to fill the form and store data: [Tutorial Video](data/videodata.mp4)
 
