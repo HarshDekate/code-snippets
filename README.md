@@ -26,7 +26,7 @@ Welcome to the Code Snippet Manager! This web application allows users to submit
 
 ## Tutorial Video
 
-Watch a tutorial video demonstrating how to fill the form and store data: [Tutorial Video](data/videodata.mp4)
+Watch a tutorial video demonstrating how to fill the form and store data: [Tutorial Video](data/video.mp4)
 
 ## Screenshots
 
